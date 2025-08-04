@@ -15,7 +15,7 @@ Durante a execução dos testes com Cypress, foram automatizados **07 casos de t
 |-----------------|------------------|------------------|
 | 07              | 03               | 03               |
 
-### 🧪 Funcionalidades testadas:
+### Funcionalidades testadas:
 - Cadastro de novo usuário
 - Validação de duplicidade de cadastro
 - Exclusão de usuário
@@ -24,14 +24,14 @@ Durante a execução dos testes com Cypress, foram automatizados **07 casos de t
 - Resposta visual (mensagens de sucesso/erro)
 - Validação de campos com dados inválidos
 
-### 🐛 Bugs Encontrados:
+### Bugs Encontrados:
 1. **Cadastro duplicado é aceito** (Criticidade Alta)
 2. **Sistema permite cadastro de usuário com campos vazios** (Criticidade Alta)
 3. **Sistema não deleta usuários, apesar de apresentar mensagem de sucesso** (Criticidade Alta)
 
 ---
 
-## 🔐 Testes de Login
+## Testes de Login
 
 | ID     | Cenário                            | Pré-condições         | Passos                                                                 | Resultado Esperado                                | Status        |
 |--------|-------------------------------------|------------------------|------------------------------------------------------------------------|---------------------------------------------------|----------------|
@@ -41,7 +41,7 @@ Durante a execução dos testes com Cypress, foram automatizados **07 casos de t
 
 ---
 
-## 👤 Testes de Cadastro e Gestão de Usuário
+## Testes de Cadastro e Gestão de Usuário
 
 | ID     | Cenário                            | Pré-condições       | Passos                                                                 | Resultado Esperado                                     | Status        |
 |--------|-------------------------------------|----------------------|------------------------------------------------------------------------|--------------------------------------------------------|----------------|
@@ -52,7 +52,7 @@ Durante a execução dos testes com Cypress, foram automatizados **07 casos de t
 
 ---
 
-## 🛠️ Notas Técnicas
+##  Notas Técnicas
 
 - **Framework utilizado**: [Cypress](https://www.cypress.io/)
 - **Execução**: `npx cypress open` para modo visual e `npx cypress run` para CLI
@@ -61,26 +61,26 @@ Durante a execução dos testes com Cypress, foram automatizados **07 casos de t
 
 ---
 
-## 🔍 Achados de Qualidade (QA)
+## Achados de Qualidade (QA)
 
 Durante a execução dos testes automatizados e validações manuais no sistema, foram identificados os seguintes pontos de atenção:
 
-### 🐞 1. Código-fonte sensível visível no console
+###  1. Código-fonte sensível visível no console
 - O console do navegador exibe partes do código da aplicação.
 - Isso pode expor rotas internas, tokens, estruturas de dados e outras informações críticas.
 - **Risco:** Exploração de falhas, vazamento de dados.
 
-### 🔓 2. Endpoint sem autenticação
+### 2. Endpoint sem autenticação
 - Algumas rotas da API aparentam estar públicas e funcionam sem autenticação.
 - Qualquer pessoa com o link pode acessar ou manipular dados diretamente.
 - **Recomendação:** Implementar validação de autenticação e autorização nas rotas sensíveis.
 
-### ❌ 3. Erro de `fetch` não tratado
+### 3. Erro de `fetch` não tratado
 - Um erro de `fetch` foi identificado no console durante a tentativa de cadastro de usuário.
 - O erro não foi tratado na interface — o usuário não recebe feedback visual.
 - **Impacto:** Má experiência do usuário e dificuldade para entender que houve uma falha.
 
-## 🧪 Testes Manuais Executados
+## Testes Manuais Executados
 
 Além dos testes automatizados, também foram realizados testes manuais exploratórios e de funcionalidade, baseados na experiência do usuário. Esses testes visaram identificar falhas que não seriam detectadas via automação, como:
 
@@ -90,6 +90,6 @@ Além dos testes automatizados, também foram realizados testes manuais explorat
 
 ---
 
-🧪 Desenvolvido por: Thamyres Delmindo  
-📅 Última atualização: `04/08/2025`
+Desenvolvido por: Thamyres Delmindo  
+Última atualização: `04/08/2025`
 
