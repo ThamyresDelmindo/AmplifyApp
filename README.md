@@ -9,7 +9,7 @@ Este documento descreve os casos de teste automatizados com Cypress, relacionado
 
 Durante a execução dos testes com Cypress, foram automatizados **07 casos de teste** com foco nas funcionalidades de cadastro e exclusão de usuários.
 
-### 📋 Visão Geral:
+### Visão Geral:
 
 | Total de Testes | Bugs Encontrados | Criticidade Alta |
 |-----------------|------------------|------------------|
