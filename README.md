@@ -87,9 +87,8 @@ Além dos testes automatizados, também foram realizados testes manuais explorat
 - Comportamento visual de mensagens e botões
 - Acessos indevidos a rotas protegidas
 - Respostas do sistema com conexão lenta ou falha de rede
-Testes Manuais e Avaliação do Agente:
-[Google Drive – Evidências e Documentação](https://drive.google.com/drive/folders/11J-aEwEk1IGUvcIMQRHTowJ_AJWO74tS)
----
+
+[Testes Manuais – Evidências e Documentação](https://drive.google.com/drive/folders/11J-aEwEk1IGUvcIMQRHTowJ_AJWO74tS)
 
 Desenvolvido por: Thamyres Delmindo  
 Última atualização: `04/08/2025`
